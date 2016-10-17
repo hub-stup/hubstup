@@ -1,5 +1,5 @@
 import express from 'express';
-import { companies } from '../../test/data/companyData';
+import { companies } from '../../test/api/companyApi';
 
 export let CompanyApi = {
   getAllCompanies: function () {
